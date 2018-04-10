@@ -1,0 +1,12 @@
+React Component:
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js"></script>
+
+<script src="@Url.Content("~/Scripts/ReactWorld.jsx")"></script>
+
+@Html.React("ReactWorld", new {
+	Name = "World"
+})
+
+@Html.ReactInitJavaScript()
